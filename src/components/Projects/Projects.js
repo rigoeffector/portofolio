@@ -2,12 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import isoko from "../../Assets/Projects/isoko.png";
+import travela from "../../Assets/Projects/travela.jpeg";
+import belle from "../../Assets/Projects/belle.png";
+import midas from "../../Assets/Projects/midas.svg";
+import dore from "../../Assets/Projects/dore.png";
+import evryting from "../../Assets/Projects/evryting.png";
+import pesa from "../../Assets/Projects/pesa.png";
+import zacu from "../../Assets/Projects/zacu.png";
 
 function Projects() {
   return (
@@ -23,68 +25,92 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={midas}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Midas HR"
+              description="Midas is a Human Resource (HR) software developed for business needs by PesaChoice International. Midas automates most business functions such as payroll, leave management, employee service, and allowing HR personnel and management to focus on what’s important."
+              // ghLink="https://github.com/soumyajit4419/Chatify"
+              demoLink="https://www.usemidas.io/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={belle}
+              isBlog={false}
+              title="VERY BELLE "
+              description="Very Belle is an East African retailer that offers the latest fashion trends coming from the UK at the best value on the high street. Put simply - amazing fashion at amazing prices. "
+              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              demoLink="https://www.verybelle.rw/"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+         
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pesa}
+              isBlog={false}
+              title="PesaChoice"
+              description="a company website=> We pride ourselves on providing world-class software to organizations and their employees, helping them grow exponentially. Whether it is prioritizing our clients through our reliable HR software solution; or providing salary advances to their employees. Putting people first is our priority!"
+              // ghLink="https://github.com/soumyajit4419/Editor.io"
+              demoLink="https://www.pesachoice.com/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={zacu}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="ZACU TV"
+              description="ZACU has produced widely acclaimed Tv series content such as Seburikoko, City Maid, Indoto and Ejo si Kera and has supplied more than 800 episodes to national television RBA. Presently, the company has a library of more than 700 hours, from local short and feature movies and TV series of different genres in drama, romance, and comedy. The company produces 150+ hours content per year."
+              demoLink="https://zacuentertainment.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={dore}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="DoreVille"
+              description="THE WONDER OF GROUP FUN=>
+              DORE provides centralised information on the best deals, news, and activities in Rwanda. These activities range from paintballing to dancing classes, restaurant discounts, customised packages , corporate incentives, et al
+              "
+              // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              demoLink="https://www.gameville.rw/dore-app/"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={evryting}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Restaurant Management "
+              description="Everything  has a mixture of cooking techniques, flavours and spices influenced by African Slaves who have inhabited the island,
+              with plain php and javascript i built this restaurant management system from scratch"
+              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              demoLink="https://evrytingiriekigali.rw/"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={isoko}
+              isBlog={false}
+              title="ISOKO 250 "
+              description="Isoko250 Ltd specializes in e-commerce development and providing digital solutions starting from website and mobile apps designing and development to giving a space for those small business for selling their products via isoko250.com platform."
+              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              demoLink="https://www.isoko250.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={travela}
+              isBlog={false}
+              title="D Travela "
+              description="DTravela is an online travel agency based in Rwanda. We offer a digital solution that facilitates travelers to access travel information about Rwanda, self-book, and pay for trips online. It provides quick and easy access to local hospitality and tourism activities in Africa, starting from Rwanda via an online booking engine. We provide the best tools to run and scale booking operations, all in one place."
+              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              demoLink="https://dtravela.com/"
             />
           </Col>
         </Row>
