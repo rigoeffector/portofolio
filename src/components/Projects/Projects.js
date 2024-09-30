@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import MOBILE from "../../Assets/Projects/MOBILE.png";
-import HUZAAPP from "../../Assets/Projects/HUZAAPP.svg";
 import belle from "../../Assets/Projects/belle.png";
 import HUZA from "../../Assets/Projects/huza.png";
 import sawa from "../../Assets/Projects/SAWA.png";
