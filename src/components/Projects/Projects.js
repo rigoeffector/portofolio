@@ -2,13 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import isoko from "../../Assets/Projects/isoko.png";
-import travela from "../../Assets/Projects/travela.jpeg";
+import MOBILE from "../../Assets/Projects/MOBILE.png";
+import HUZAAPP from "../../Assets/Projects/HUZAAPP.svg";
 import belle from "../../Assets/Projects/belle.png";
-import midas from "../../Assets/Projects/midas.svg";
-import dore from "../../Assets/Projects/dore.png";
+import HUZA from "../../Assets/Projects/huza.png";
+import sawa from "../../Assets/Projects/SAWA.png";
 import evryting from "../../Assets/Projects/evryting.png";
-import pesa from "../../Assets/Projects/pesa.png";
+import HUZADASH from "../../Assets/Projects/dash.png";
 import zacu from "../../Assets/Projects/zacu.png";
 
 function Projects() {
@@ -25,9 +25,9 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={midas}
+              imgPath={HUZADASH}
               isBlog={false}
-              title="Midas HR"
+              title="Midas HR Dashboard"
               description="Midas is a Human Resource (HR) software developed for business needs by PesaChoice International. Midas automates most business functions such as payroll, leave management, employee service, and allowing HR personnel and management to focus on what’s important."
               // ghLink="https://github.com/soumyajit4419/Chatify"
               demoLink="https://www.usemidas.io/"
@@ -48,12 +48,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={pesa}
+              imgPath={HUZA}
               isBlog={false}
-              title="PesaChoice"
-              description="a company website=> We pride ourselves on providing world-class software to organizations and their employees, helping them grow exponentially. Whether it is prioritizing our clients through our reliable HR software solution; or providing salary advances to their employees. Putting people first is our priority!"
+              title="Huza HR Website"
+              description="a company website We pride ourselves on providing world-class software to organizations and their employees, helping them grow exponentially. Whether it is prioritizing our clients through our reliable HR software solution; or providing salary advances to their employees. Putting people first is our priority!"
               // ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://www.pesachoice.com/"              
+              demoLink="https://www.huzahr.com/"              
             />
           </Col>
 
@@ -69,14 +69,13 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={dore}
+              imgPath={sawa}
               isBlog={false}
-              title="DoreVille"
-              description="THE WONDER OF GROUP FUN=>
-              DORE provides centralised information on the best deals, news, and activities in Rwanda. These activities range from paintballing to dancing classes, restaurant discounts, customised packages , corporate incentives, et al
+              title="Sawa Telematics "
+              description="Empower government agencies with state-of-the-art telematics solutions for their diverse fleets. Our technology provides comprehensive tracking, driver scores,
               "
               // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              demoLink="https://www.gameville.rw/dore-app/"
+              demoLink="https://sawatelematics.com/"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
@@ -95,22 +94,22 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={isoko}
+              imgPath={MOBILE}
               isBlog={false}
-              title="ISOKO 250 "
-              description="Isoko250 Ltd specializes in e-commerce development and providing digital solutions starting from website and mobile apps designing and development to giving a space for those small business for selling their products via isoko250.com platform."
+              title="Huza HR iOS App "
+              description="HUZA is a one-stop shop for all your HR related needs! We're dedicated to offering top-tier software for organizational growth,"
               // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://www.isoko250.com/"
+              demoLink="https://apps.apple.com/rw/app/huza-hr/id6450055105"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={travela}
+              imgPath={MOBILE}
               isBlog={false}
-              title="D Travela "
-              description="DTravela is an online travel agency based in Rwanda. We offer a digital solution that facilitates travelers to access travel information about Rwanda, self-book, and pay for trips online. It provides quick and easy access to local hospitality and tourism activities in Africa, starting from Rwanda via an online booking engine. We provide the best tools to run and scale booking operations, all in one place."
+              title="Huza HR Android App "
+              description=" HUZA is a one-stop shop for all your HR related needs! We're dedicated to offering top-tier software for organizational growth,"
               // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://dtravela.com/"
+              demoLink="https://play.google.com/store/apps/details?id=com.huzahr"
             />
           </Col>
         </Row>
