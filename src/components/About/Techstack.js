@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import { RiFlutterFill } from "react-icons/ri";
 
 
@@ -13,14 +12,14 @@ import {
   DiLaravel,
   DiAngularSimple,
 } from "react-icons/di";
-import { SiMysql, SiFirebase, SiNextdotjs, SiCsharp,SiTypescript,SiPostgresql } from "react-icons/si";
+import { SiMysql, SiFirebase, SiNextdotjs, SiTypescript,SiPostgresql } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiCsharp />
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
       </Col>
@@ -39,9 +38,9 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <RiFlutterFill />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>

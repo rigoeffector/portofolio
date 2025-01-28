@@ -41,7 +41,14 @@ function NavBar() {
       <Container>
         <Navbar.Brand href="/" className="d-flex">
           {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
-          <h5>RigoEffector Ninja</h5>
+          <h5
+            style={{
+              fontWeight: 700,
+              color:"#ffc107"
+            }}
+          >
+            ABAYEZU Rene Rigobert
+          </h5>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

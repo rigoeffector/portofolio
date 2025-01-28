@@ -1,10 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import laptopImg from "../../Assets/aboutme.svg";
 import Toolstack from "./Toolstack";
 
 function About() {
@@ -21,7 +20,14 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+            <h1
+              style={{
+                fontSize: "2.1em",
+                paddingBottom: "20px",
+                textAlign: "left",
+                color: "wheat",
+              }}
+            >
               Know Who <strong className="purple">I'M</strong>
             </h1>
             <Aboutcard />
@@ -45,7 +51,7 @@ function About() {
         </h1>
         <Toolstack />
 
-        <Github />
+        {/* <Github /> */}
       </Container>
     </Container>
   );

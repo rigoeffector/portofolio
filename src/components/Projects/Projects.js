@@ -2,13 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import MOBILE from "../../Assets/Projects/MOBILE.png";
 import belle from "../../Assets/Projects/belle.png";
-import HUZA from "../../Assets/Projects/huza.png";
+import HUZA from "../../Assets/Projects/huza_hr_logo.jpeg";
 import sawa from "../../Assets/Projects/SAWA.png";
 import evryting from "../../Assets/Projects/evryting.png";
 import HUZADASH from "../../Assets/Projects/dash.png";
 import zacu from "../../Assets/Projects/zacu.png";
+import huzahrapp from "../../Assets/Projects/huzahrapp.png";
+import Facial from "../../Assets/Projects/facial.png";
 
 function Projects() {
   return (
@@ -22,7 +23,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
               imgPath={HUZADASH}
               isBlog={false}
@@ -32,7 +33,7 @@ function Projects() {
               demoLink="https://www.usemidas.io/"
             />
           </Col>
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
               imgPath={belle}
               isBlog={false}
@@ -45,7 +46,7 @@ function Projects() {
           </Col>
          
 
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
               imgPath={HUZA}
               isBlog={false}
@@ -56,7 +57,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
               imgPath={zacu}
               isBlog={false}
@@ -66,7 +67,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
               imgPath={sawa}
               isBlog={false}
@@ -79,7 +80,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
               imgPath={evryting}
               isBlog={false}
@@ -91,9 +92,9 @@ function Projects() {
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
-              imgPath={MOBILE}
+              imgPath={huzahrapp}
               isBlog={false}
               title="Huza HR iOS App "
               description="HUZA is a one-stop shop for all your HR related needs! We're dedicated to offering top-tier software for organizational growth,"
@@ -101,14 +102,25 @@ function Projects() {
               demoLink="https://apps.apple.com/rw/app/huza-hr/id6450055105"
             />
           </Col>
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
-              imgPath={MOBILE}
+              imgPath={huzahrapp}
               isBlog={false}
               title="Huza HR Android App "
-              description=" HUZA is a one-stop shop for all your HR related needs! We're dedicated to offering top-tier software for organizational growth,"
+              description="HUZA is a one-stop shop for all your HR related needs! We're dedicated to offering top-tier software for organizational growth,"
               // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
               demoLink="https://play.google.com/store/apps/details?id=com.huzahr"
+            />
+          </Col>
+
+          <Col md={3} className="project-card">
+            <ProjectCard
+              imgPath={Facial}
+              isBlog={false}
+              title="Huza Facial Recognition Android App "
+              description="Huza Facial Recognition is a software application designed to identify or verify a person's identity by scanning their face. Facial scans will be used to register people's attendance."
+              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              demoLink="https://play.google.com/store/apps/details?id=com.huzahr.faceRecognition&pli=1"
             />
           </Col>
         </Row>

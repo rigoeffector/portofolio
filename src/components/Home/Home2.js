@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/myimage.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Dart, Javascript and Php. </b>
+                <b className="purple"> Kotlin,Dart, Javascript and Java. </b>
               </i>
               <br />
               <br />
