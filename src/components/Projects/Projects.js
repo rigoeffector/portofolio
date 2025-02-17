@@ -5,7 +5,6 @@ import Particle from "../Particle";
 import belle from "../../Assets/Projects/belle.png";
 import HUZA from "../../Assets/Projects/huza_hr_logo.jpeg";
 import sawa from "../../Assets/Projects/SAWA.png";
-import evryting from "../../Assets/Projects/evryting.png";
 import HUZADASH from "../../Assets/Projects/dash.png";
 import zacu from "../../Assets/Projects/zacu.png";
 import huzahrapp from "../../Assets/Projects/huzahrapp.png";
