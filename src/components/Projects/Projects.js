@@ -10,6 +10,7 @@ import HUZADASH from "../../Assets/Projects/dash.png";
 import zacu from "../../Assets/Projects/zacu.png";
 import huzahrapp from "../../Assets/Projects/huzahrapp.png";
 import Facial from "../../Assets/Projects/facial.png";
+import mayso from "../../Assets/Projects/mayso.png";
 
 function Projects() {
   return (
@@ -82,13 +83,12 @@ function Projects() {
 
           <Col md={3} className="project-card">
             <ProjectCard
-              imgPath={evryting}
+              imgPath={sawa}
               isBlog={false}
-              title="Restaurant Management "
-              description="Everything  has a mixture of cooking techniques, flavours and spices influenced by African Slaves who have inhabited the island,
-              with plain php and javascript i built this restaurant management system from scratch"
+              title="Sawa Telematics App "
+              description="Real Time and Preventive insights on Vehicle movement, Fuel consumption, Driver behaviors and green vehicle insights."
               // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              demoLink="https://evrytingiriekigali.rw/"
+              demoLink="https://apps.apple.com/us/app/sawa-telematics/id6478764536?platform=iphone"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
@@ -121,6 +121,20 @@ function Projects() {
               description="Huza Facial Recognition is a software application designed to identify or verify a person's identity by scanning their face. Facial scans will be used to register people's attendance."
               // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
               demoLink="https://play.google.com/store/apps/details?id=com.huzahr.faceRecognition&pli=1"
+            />
+          </Col>
+          <Col md={3} className="project-card">
+            <ProjectCard
+              imgPath={mayso}
+              isBlog={false}
+              title="May Sochic App "
+              description="L'application officielle de la Commune de Chiconi. Chiconi est une des 17 communes de l'île de Mayotte située au Centre Ouest entre la Commune de Tsingoni et la Commune de SADA.
+L'administration de la commune de Chiconi est sous la responsabilité du maire comme prévoit l’article
+L.2122-18 du Code général des collectivités territoriales. En insérant cette disposition, le législateur a
+entendu affirmer que le maire est, dans sa commune, le chef politique et qu’il reste seul responsable,
+même si, bien sûr, il peut déléguer ses fonctions et sa signature."
+              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              demoLink="https://play.google.com/store/apps/details?id=com.chiconisohoa.maysochic&hl=en"
             />
           </Col>
         </Row>
