@@ -5,37 +5,47 @@ import { CgWebsite } from "react-icons/cg";
 
 function ProjectCards(props) {
   return (
-    <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" style={{
-        height: '200px'
-      }} />
-      <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify", fontSize:'12px' }}>
-          {props.description}
-        </Card.Text>
-        {/* <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
-        </Button> */}
-        {"\n"}
-        {"\n"}
+    <Card className="project-card-view" style={{ height: "100%" }}>
+      <div style={{ height: "200px", width: "100%", overflow: "hidden" }}>
+        <Card.Img
+          variant="top"
+          src={props.imgPath}
+          alt="card-img"
+          style={{
+            height: "100%",
+            width: "100%",
+            objectFit: "cover", // Fills the space without distortion
+          }}
+        />
+      </div>
 
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
+      <Card.Body
+        className="d-flex flex-column justify-content-between"
+        style={{ height: "100%" }}
+      >
+        <div>
+          <Card.Title>{props.title}</Card.Title>
+          <Card.Text style={{ textAlign: "justify", fontSize: "12px" }}>
+            {props.description}
+          </Card.Text>
+        </div>
 
         {!props.isBlog && props.demoLink && (
-          <Button
-            variant="primary"
-            href={props.demoLink}
-            target="_blank"
-            style={{ marginLeft: "10px" }}
-          >
-            <CgWebsite /> &nbsp;
-            {"Demo"}
-          </Button>
+          <div className="mt-auto">
+            <Button
+              variant="primary"
+              href={props.demoLink}
+              target="_blank"
+              className="w-100"
+            >
+              <CgWebsite /> &nbsp;
+              {"Demo"}
+            </Button>
+          </div>
         )}
       </Card.Body>
     </Card>
   );
 }
+
 export default ProjectCards;
