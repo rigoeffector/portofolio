@@ -1,24 +1,29 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
+import { AiFillGithub } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
+import { AiOutlineTwitter } from "react-icons/ai";
 
 function Footer() {
+  const year = new Date().getFullYear();
   return (
     <Container fluid className="footer">
-      {/* <Row>
-        <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Rigobert Rene</h3>
+      <Row className="align-items-center">
+        <Col md={4} className="footer-copywright">
+          <h3>Designed &amp; built by Rigobert Rene</h3>
         </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} RigoEffector Ninja</h3>
+        <Col md={4} className="footer-copywright">
+          <h3>© {year} ABAYEZU Rene Rigobert</h3>
         </Col>
-        <Col md="4" className="footer-body">
+        <Col md={4} className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
                 href="https://github.com/rigoeffector"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
+                aria-label="GitHub"
               >
                 <AiFillGithub />
               </a>
@@ -27,8 +32,9 @@ function Footer() {
               <a
                 href="https://twitter.com/rigobertrene"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Twitter"
               >
                 <AiOutlineTwitter />
               </a>
@@ -37,16 +43,16 @@ function Footer() {
               <a
                 href="https://www.linkedin.com/in/abayezu-rene-rigobert-209a47130/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
+                aria-label="LinkedIn"
               >
                 <FaLinkedinIn />
               </a>
             </li>
-            
           </ul>
         </Col>
-      </Row> */}
+      </Row>
     </Container>
   );
 }

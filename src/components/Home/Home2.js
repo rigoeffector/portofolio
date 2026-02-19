@@ -21,35 +21,20 @@ function Home2() {
             <p className="home-about-body">
               I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> Kotlin,Dart, Javascript and Java. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Mobile Application.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js, Flutter</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              <br /><br />
+              I am fluent in classics like{" "}
+              <span className="skill-pill">Kotlin</span>{" "}
+              <span className="skill-pill">Dart</span>{" "}
+              <span className="skill-pill">Javascript</span>{" "}
+              <span className="skill-pill">Java</span>.
+              <br /><br />
+              My focus is building{" "}
+              <b className="purple">Web Technologies & Products</b> and{" "}
+              <b className="purple">Mobile Applications</b>. I apply my passion
+              with <b className="purple">Node.js</b>, <b className="purple">Flutter</b>, and
+              modern JS frameworks like{" "}
+              <span className="skill-pill">React</span>{" "}
+              <span className="skill-pill">Next.js</span>.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

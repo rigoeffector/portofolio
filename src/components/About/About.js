@@ -20,14 +20,7 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <h1
-              style={{
-                fontSize: "2.1em",
-                paddingBottom: "20px",
-                textAlign: "left",
-                color: "wheat",
-              }}
-            >
+            <h1 className="about-page-heading">
               Know Who <strong className="purple">I'M</strong>
             </h1>
             <Aboutcard />
