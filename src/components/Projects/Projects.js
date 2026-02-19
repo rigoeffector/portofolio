@@ -83,7 +83,7 @@ function Projects() {
               title="Huza HR Dashboard"
               category="Web"
               description="Enterprise dashboard for HR automation including payroll, leave, and employee services."
-              demoLink="https://www.usemidas.io/"
+              demoLink="https://www.app.huzahr.com/"
             />
           </Col>
 
